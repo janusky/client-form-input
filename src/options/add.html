@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Form Input</title>
+
+	<!-- 
+		Material Design for Bootstrap CSS 
+	-->
+	<link href="bootstrap-material-design/bootstrap-material-design.min.css" rel="stylesheet" 
+		integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous"></link>
+	<!-- Google Font Awesome -->
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet"></link>
+	<!-- JQuery -->
+	<script src="jquery/jquery-3.3.1.min.js"></script>
+	<!-- Popper JS -->
+	<script src="bootstrap-material-design/popper-1.14.3.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+	 crossorigin="anonymous"></script>
+	<!-- SnackbarJS plugin -->
+	<script src="bootstrap-material-design/snackbar.min.js"></script>
+	<!-- Bootstrap Material Design -->
+	<script src="bootstrap-material-design/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
+	 crossorigin="anonymous"></script>
+
+	<!-- JavaScript propios  -->
+	<script type="module" src="add.js" defer></script>
+
+	<link href="css/options.css" rel="stylesheet"></link>
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
+			 aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand" href="index.html"><img src="/browser/bar.png" width="24"></img></a>
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html" data-i18n="menuAdmin"></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="add.html" data-i18n="menuAdd"></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="config.html" data-i18n="menuConfig"></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="help.html" data-i18n="menuHelp"></a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" data-i18n="formSeach" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit" data-i18n="formSeach"></button>
+				</form>
+			</div>
+		</nav>
+	</header>
+	<main class="bd-masthead" id="content" role="main">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-12 mx-auto col-md-12">
+					<div class="card">
+						<div class="card-block">
+							<h5 class="card-title" data-i18n="addPageTitle"></h5>
+							<form id="crearForm">
+								<div class="form-group">
+									<label for="page" data-i18n="addFieldUrl"></label>
+									<input type="text" class="form-control" id="page" aria-describedby="pageHelp" data-i18n="{'key':'enterField','params':'URL'}" />
+									<small id="pageHelp" class="form-text text-muted" data-i18n="sourceFieldUrlH"></small>
+								</div>
+								<div class="form-group form-check">
+									<input type="checkbox" id="active" class="form-check-input" checked>
+									<label class="form-check-label" for="active" data-i18n="sourceFieldActive"></label>
+								</div>
+								<div class="input-group mb-3">
+									<div class="input-group-prepend">
+										<span class="input-group-text" id="inputGroup-sizing-default" data-i18n="sourceFieldFinderTagHtml" data-i18n-title="sourceFieldFinderTagHtmlH"></span>
+									</div>
+									<input type="text" class="form-control" id="finderTagHtml" data-i18n="{'key':'enterField','params':'javascript'}" />
+								</div>
+								<div class="form-group">
+									<label for="script">Script JS</label>
+									<small id="scriptHelp" class="form-text text-muted" data-i18n="sourceFieldScriptH"></small>
+									<textarea class="form-control" id="script" aria-describedby="scriptHelp" rows="3" data-i18n="{'key':'enterField','params':'javascript'}"></textarea>
+								</div>
+								<button id="create" type="button" class="btn btn-primary btn-raised" data-i18n="btnCreate"></button>
+							</form>
+							<p class="card-text text-center"><small id="msgForm" class="text-muted"></small></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+</body>
+
+</html>

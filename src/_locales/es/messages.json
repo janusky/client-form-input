@@ -1,0 +1,140 @@
+{
+  "extensionName": {
+    "message": "Formulario de Entrada",
+    "description": "Nombre de extensión."
+  },
+  "extensionDescription": {
+    "message": "Cliente - Formulario de Entrada"
+  },
+  "extensionNick": {
+    "message": "Form Input"
+  },
+  "extensionInfo": {
+    "message":
+      "Permite incorporar formularios dinámicos con <strong>Survey</strong>."
+  },
+  "disabledTitle": {
+    "message": "FI Desactivado",
+    "description": "desarrollador janusky@gmail.com"
+  },
+  "displayTitle": {
+    "message": "FI Activado",
+    "description": "desarrollador janusky@gmail.com"
+  },
+  "notDataFound": {
+    "message": "Sin datos para mostrar. Ver menú superior para agregar."
+  },
+  "homeFailUser": {
+    "message": "FI - usuario sin sesi&oacute;n..."
+  },
+  "formSeach": {
+    "message": "Buscar"
+  },
+  "menuAdmin": {
+    "message": "Administrar"
+  },
+  "menuAdd": {
+    "message": "Agregar"
+  },
+  "menuConfig": {
+    "message": "Configurar"
+  },
+  "menuHelp": {
+    "message": "Ayuda"
+  },
+  "btnCreate": {
+    "message": "Crear"
+  },
+  "btnDelete": {
+    "message": "Borrar"
+  },
+  "btnDeleteTitle": {
+    "message": "Borrar Datos"
+  },
+  "btnAddForm": {
+    "message": "Agregar Formulario"
+  },
+  "adminPageTitle": {
+    "message": "Administración de recursos"
+  },
+  "adminPageLink": {
+    "message": "Acceso a Administración"
+  },
+  "configPageTitle": {
+    "message": "Configuraciones Generales"
+  },
+  "configFieldStrategyDb": {
+    "message": "Estrategia de almacenamiento"
+  },
+  "configFieldLanguaje": {
+    "message": "Idioma"
+  },
+  "addPageTitle": {
+    "message": "Alta de sitio/web"
+  },
+  "addFieldUrl": {
+    "message": "Página / $field$",
+    "placeholders": {
+      "field": {
+        "content": "URL"
+      }
+    }
+  },
+  "enterField": {
+    "message": "Enter $1"
+  },
+  "sourceFieldActive": {
+    "message": "Activo"
+  },
+  "sourceFieldUrlH": {
+    "message": "Sitio donde aplicar.<br/>Acepta expresión regular."
+  },
+  "sourceFieldScriptH": {
+    "message":
+      "JavaScript que se ejecuta con la carga de la funcionalidad para el sitio actual. <br/>Permitiendo reanudar funcionalidad o extenderla."
+  },
+  "sourceFieldFinderTagHtml": {
+    "message": "Find Tag Html"
+  },
+  "sourceFieldFinderTagHtmlH": {
+    "message":
+      "JavaScript que retorna los elementos HTML donde incluir funcionalidad.<br/> Por defecto toma los textarea."
+  },
+  "sourceFieldFormId": {
+    "message": "Identificador"
+  },
+  "sourceFieldFormType": {
+    "message": "Tipo"
+  },
+  "sourceFieldFormMeta": {
+    "message": "Formulario"
+  },
+  "notifyDeleteTitle": {
+    "message": "Confirmar eliminar"
+  },
+  "notifyDeleteMessage": {
+    "message": "Confirmar eliminar este contenido"
+  },
+  "notify010": {
+    "message": "Se actualizó el objeto '$1'"
+  },
+  "error009": {
+    "message": "No se pudo eliminar el objeto con id $1"
+  },
+  "error010": {
+    "message": "El formulario fue bloqueado para no ser eliminado"
+  },
+  "error011": {
+    "message": "El identificador '$1' del objeto id '$2' no encontrado"
+  },
+  "dicYes": {
+    "message": "Si"
+  },
+  "dicNo": {
+    "message": "No"
+  },
+  "helpFI": {
+    "message":
+      "Extensión que permite enriquecer textarea con formularios dinámicos."
+  }
+}

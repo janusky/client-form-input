@@ -1,0 +1,140 @@
+{
+  "extensionName": {
+    "message": "Input Form",
+    "description": "Extension name."
+  },
+  "extensionDescription": {
+    "message": "Client - Form Input"
+  },
+  "extensionNick": {
+    "message": "Form Input"
+  },
+  "extensionInfo": {
+    "message":
+      "It allows incorporating dynamic forms with <strong>Survey</strong>."
+  },
+  "disabledTitle": {
+    "message": "FI Disabled"
+  },
+  "displayTitle": {
+    "message": "FI Enabled"
+  },
+  "notDataFound": {
+    "message": "No data to display. View top menu to add"
+  },
+  "configCtMode": {
+    "message": "Storage Type Local/Remote"
+  },
+  "configCtTitle": {
+    "message": "Application Configuration"
+  },
+  "homeFailUser": {
+    "message": "FI - User not logged in session"
+  },
+  "formSeach": {
+    "message": "Search"
+  },
+  "menuAdmin": {
+    "message": "Admin"
+  },
+  "menuAdd": {
+    "message": "Add"
+  },
+  "menuConfig": {
+    "message": "Config"
+  },
+  "menuHelp": {
+    "message": "Help"
+  },
+  "btnCreate": {
+    "message": "Create"
+  },
+  "btnDelete": {
+    "message": "Delete"
+  },
+  "btnDeleteTitle": {
+    "message": "Delete Source"
+  },
+  "btnAddForm": {
+    "message": "Add Form"
+  },
+  "adminPageTitle": {
+    "message": "Resources Management"
+  },
+  "adminPageLink": {
+    "message": "Access to Administration"
+  },
+  "configPageTitle": {
+    "message": "Generals Configurations"
+  },
+  "configFieldStrategyDb": {
+    "message": "Strategy for storage"
+  },
+  "configFieldLanguaje": {
+    "message": "Language"
+  },
+  "addPageTitle": {
+    "message": "Add site/url"
+  },
+  "addFieldUrl": {
+    "message": "Page / $field$",
+    "placeholders": {
+      "field": {
+        "content": "URL"
+      }
+    }
+  },
+  "enterField": {
+    "message": "Enter $1"
+  },
+  "sourceFieldActive": {
+    "message": "Active"
+  },
+  "sourceFieldUrlH": {
+    "message": "Site where apply. <br/>Accept regular expression."
+  },
+  "sourceFieldScriptH": {
+    "message":
+      "JavaScript that runs with the functionality load for the current site. <br/>Allowing to resume functionality or extend it."
+  },
+  "sourceFieldFinderTagHtmlH": {
+    "message":
+      "JavaScript that returns HTML elements where to include functionality. <br/> By default it takes textarea."
+  },
+  "sourceFieldFinderTagHtml": {
+    "message": "Find Tag Html"
+  },
+  "sourceFieldFormId": {
+    "message": "identifier"
+  },
+  "sourceFieldFormType": {
+    "message": "Type"
+  },
+  "notifyDeleteTitle": {
+    "message": "Confirm delete"
+  },
+  "notifyDeleteMessage": {
+    "message": "Comfirm delete this content"
+  },
+  "notify010": {
+    "message": "Object updated '$1'"
+  },
+  "error009": {
+    "message": "Could not delete object with id $1"
+  },
+  "error010": {
+    "message": "The form was blocked so as not to be delete"
+  },
+  "error011": {
+    "message": "The identifier '$1' of the Object '$2' not found"
+  },
+  "dicYes": {
+    "message": "Yes"
+  },
+  "dicNo": {
+    "message": "No"
+  },
+  "helpFI": {
+    "message": "Extension that allows enriching textarea with dynamic forms."
+  }
+}

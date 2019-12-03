@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Form Input</title>
+
+	<script src="../options/jquery/jquery-3.3.1.min.js"></script>
+	<script type="module" src="index.js" defer></script>
+</head>
+
+<style>
+	#mainPopup {
+		min-width: 13em;
+	}
+
+	h1 {
+		text-align: center;
+		font-size: 1.9em;
+	}
+
+	h1 a {
+		text-decoration: none;
+	}
+
+	#version {
+		float: right;
+		font-weight: bold;
+		color: crimson;
+	}
+</style>
+
+<body>
+	<div id="mainPopup">
+		<div class="bodyCss">
+			<h1>
+				<span><a class="title" title="&#169; janusky@gmail.com"
+						href="/options/index.html" target="_blank" data-i18n="extensionNick"></a></span>
+				</span>
+			</h1>
+
+			<p data-i18n="extensionInfo" i18n-config="html"></p>
+			<p><span style="margin-right:2px;">&#x265A;</span><a href="/options/index.html" target="_blank" data-i18n="adminPageTitle"
+				 data-i18n-title="adminPageLink"></a></p>
+			<p style="padding-top:17px;">
+				&#169; janusky
+				<span id="version" title="Versión instalada.">1.0.0</span>
+			</p>
+		</div>
+	</div>
+</body>
+
+</html>

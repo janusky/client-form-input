@@ -1,0 +1,29 @@
+span.help {
+  cursor: pointer;
+  color: #009688;
+}
+
+.bmd-form-group {
+  padding-left: 26px;
+}
+
+.card .card-block {
+  /* width: 42rem; */
+}
+
+.input-group-text {
+  padding-right: 10px;
+}
+
+/*
+.nav-link.active {
+    box-shadow: 0 0 10px 3px rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0 0 10px 3px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0 0 10px 3px rgba(0,0,0,0.12);
+}*/
+
+.nav-link.active {
+  box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+}
